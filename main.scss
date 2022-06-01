@@ -5,11 +5,12 @@
 
 $theme-colors: (
   "primary": #ccff99,
+  "secondary": #e6e6e6,
   "dark": #111,
 );
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
 // Then add additional custom code here
 * {
@@ -26,10 +27,12 @@ body {
 #domu {
   background-image: url(/img/bghotel.jpg);
   background-size: cover;
-  min-height: 75vh;
+  min-height: 90vh;
   position: relative;
   color: #ccff99;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+
 }
 
 /*---------------------------------history-------------------------*/
