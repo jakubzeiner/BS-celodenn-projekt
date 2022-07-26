@@ -18,28 +18,28 @@
   <!-- -------------------home--------------------- -->
   <div id="domu">
     <div id="header" class="container text-center text-secondary mt-6">
-      <div id="welcoming" class="container mt-6 p-5">
-        <h2 class="display-4">Vítejte</h2>
-        <h1 class="display-4">HOTEL Huerto del Cura</h1>
+      <div id="welcoming" class="container mt-6 p-3">
+        <h2 class="display-4 wel">Welcome</h2>
+        <h1 class="display-4 wel">HOTEL Punta Azul</h1>
       </div>
       <div class="container">
         <form>
-          <h4 class="text-center text-secondary">Rezervovat nyní</h4>
+          <h4 class="text-center text-secondary">Reserve now</h4>
           <div class="row">
             <div class="col-12 col-md-6 text-secondary">
-              <label for="firstname">Jméno</label>
-              <input type="text" class="form-control" placeholder="Jan" id="firstname">
+              <label for="firstname">Name</label>
+              <input type="text" class="form-control" placeholder="John" id="firstname">
             </div>
             <div class="col-12 col-md-6 text-secondary">
-              <label for="lastname">Příjmení</label>
-              <input type="text" class="form-control" placeholder="Novák" id="lastname">
+              <label for="lastname">Last name</label>
+              <input type="text" class="form-control" placeholder="Young" id="lastname">
             </div>
           </div>
-          <div class="row pt-2">
+          <div class="row">
             <div class=" col col-lg-6 form-group text-secondary">
               <label for="Email">Email</label>
               <input type="email" class="form-control " id="Email" aria-describedby="emailHelp"
-                placeholder="host@domena.cz">
+                placeholder="johnyoung@domain.com">
             </div>
             <div class=" col col-lg-6 form-group text-secondary">
               <label for="telephone">Tel.</label>
@@ -48,35 +48,35 @@
           </div>
           <div class="row">
             <div class="form-group col-6 col-md-4 text-secondary">
-              <label for="guestsNum">Počet hostů</label>
-              <input type="text" class="form-control" id="guestsNum" name="guestsNum">
+              <label for="guestsNum">Number of guests</label>
+              <input type="number" min="1" class="form-control" id="guestsNum" name="guestsNum">
             </div>
             <div class="form-group col-6 col-md-4 text-secondary ">
-              <label for="numRooms">Počet pokojů</label>
-              <input type="text" class="form-control" id="numRooms">
+              <label for="numRooms">Number of rooms</label>
+              <input type="number" min="1" class="form-control" id="numRooms">
             </div>
             <div class="form-group col-12 col-md-4 text-secondary">
-              <label for="inputState">Druh pokoje</label>
-              <select id="inputState" class="form-control">
-                <option selected="">Jednolůžkový</option>
-                <option>Dvoulůžkový</option>
+              <label for="inputState">Room</label>
+              <select id="inputState" class="form-control text-secondary">
+                <option selected="">Single bed</option>
+                <option>Double bed</option>
               </select>
             </div>
           </div>
           <div class="row">
             <div class="col-6 form-group text-secondary">
-              <label for="exampleInputPassword1">Datum příjezdu</label>
-              <input type="date" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1">Arrival</label>
+              <input type="date" class="form-control text-secondary" id="exampleInputPassword1">
             </div>
             <div class="col-6 form-group text-secondary">
-              <label for="exampleInputPassword1">Datum odjezdu</label>
-              <input type="date" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1">Departure</label>
+              <input type="date" class="form-control text-secondary" id="exampleInputPassword1">
             </div>
           </div>
           <div class="text-center p-3">
-            <button type="submit" class="btn btn-primary">Rezervovat</button>
+            <button type="submit" class="btn btn-primary">Book now</button>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Virtuální prohlídka
+              Virtual tour
             </button>
           </div>
         </form>
@@ -90,21 +90,20 @@
 
 
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand text-primary" href="#">Huerto del Cura</a>
+      <a class="navbar-brand text-primary" href="#">Punta Azul</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav md-2">
-          <a class="nav-link text-primary" aria-current="page" href="#">Domů</a>
-          <a class="nav-link text-primary" href="#history">Historie</a>
-          <a class="nav-link text-primary" href="#priceList">Ceník</a>
-          <a class="nav-link text-primary" href="#galerie">Galerie</a>
-          <a class="nav-link text-primary" href="#contacts">Kontakty</a>
-          <a class="nav-link text-primary" href="animace.html">Ikona</a>
+          <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-primary" href="#history">History</a>
+          <a class="nav-link text-primary" href="#priceList">Price list</a>
+          <a class="nav-link text-primary" href="#galerie">Gallery</a>
+          <a class="nav-link text-primary" href="#contacts">Contacts</a>
         </div>
       </div>
     </div>
@@ -122,22 +121,17 @@
     <div class="wrapper">
       <section id="history">
         <div class="container text-center">
-          <h3 class="headings py-5">Historie</h3>
+          <h3 class="headings py-5">History</h3>
           <div class="row justify-content-center">
-            <div id="firstpar" class="col-12 col-md-4 p-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis libero illo perferendis id, ducimus sint
-              corporis soluta neque porro autem repellat sed consectetur modi sit perspiciatis esse. Harum, doloremque
-              voluptatum?
+            <div class="col-12 col-md-6 col-lg-4 p-3 par">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam, architecto magnam excepturi omnis quod vitae, rerum cupiditate officia itaque repellendus neque minus tenetur iure facere vero! Repudiandae accusamus illo laudantium. Repellendus placeat officia nisi, facilis obcaecati ipsam. Ullam harum quasi obcaecati aliquid debitis eum consequuntur eligendi nobis dolorem fugit, fuga corrupti! Voluptate, esse sed! Sint enim excepturi repellat id fugiat tenetur quibusdam, laborum harum corrupti dolore distinctio neque praesentium magnam atque, animi at quas velit odio voluptate molestiae maxime.
             </div>
 
-            <div id="secondpar" class="col-12 col-md-4 p-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam animi modi, maxime nesciunt, sint
-              molestias numquam libero officiis illo praesentium perspiciatis vero consequuntur minima itaque et eum
-              soluta mollitia repellat ratione doloribus error voluptates sequi. Ea sed exercitationem maxime tempore
-              necessitatibus numquam facere labore perferendis officia esse, laboriosam velit?
+            <div class="col-12 col-md-6 col-lg-4 p-3 par">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam assumenda, iure soluta commodi necessitatibus aliquam minima natus excepturi, quo ratione voluptatibus? Soluta aspernatur eligendi reiciendis corporis quas rerum vitae libero est, reprehenderit veritatis? Reprehenderit pariatur, placeat sit voluptatem provident mollitia architecto sed deleniti odit. Nam debitis voluptatem vel. Cupiditate facilis deleniti quo iusto laudantium et modi harum ipsam quas, facere dolorem eum totam consectetur nobis?
             </div>
-            <div class="col-4 d-none d-sm-block">
-              <img src="img/pool.jpg" class="img-fluid pool mb-5 pt-3" alt="bazen">
+            <div class="col-8  col-lg-4 d-none d-md-block">
+              <img src="img/pool.jpg" class="img-fluid pool mb-5 pt-3" alt="pool">
             </div>
           </div>
         </div>
@@ -147,7 +141,7 @@
       <!-- Cards -->
       <section id="priceList" class="py-4">
         <div class="container text-center">
-          <h3 class="headings py-5">Ceník</h3>
+          <h3 class="headings py-5">Price list</h3>
           <div class="row">
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card my-2">
@@ -158,12 +152,12 @@
                     fugiat dicta hic?</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">1000 CZK jednolůžko/noc</li>
-                  <li class="list-group-item">1700 CZK dvoulůžko/noc</li>
+                  <li class="list-group-item">50 EUR single bed/night</li>
+                  <li class="list-group-item">80 EUR Double bed/night</li>
                 </ul>
                 <div class="card-body">
                   <a class="btn btn-outline-dark" data-bs-toggle="tooltip" data-placement="bottom"
-                    title="Podívej se">Select</a>
+                    title="Look here">Select</a>
                 </div>
               </div>
             </div>
@@ -177,12 +171,12 @@
                     fugiat dicta hic?</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">1300 CZK jednolůžko/noc</li>
-                  <li class="list-group-item">2000 CZK dvoulůžko/noc</li>
+                  <li class="list-group-item">75 EUR single bed/night</li>
+                  <li class="list-group-item">110 EUR Double bed/night</li>
                 </ul>
                 <div class="card-body">
                   <a class="btn btn-outline-dark" data-bs-toggle="tooltip" data-placement="bottom"
-                    title="Podívej se!">Select</a>
+                    title="Look here!">Select</a>
                 </div>
               </div>
             </div>
@@ -196,12 +190,12 @@
                     fugiat dicta hic?</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">1800 CZK jednolůžko/noc</li>
-                  <li class="list-group-item">2500 CZK dvoulůžko/noc</li>
+                  <li class="list-group-item">100 EUR single bed/night</li>
+                  <li class="list-group-item">140 EUR Double bed/night</li>
                 </ul>
                 <div class="card-body">
-                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Naše nabídka"
-                    data-bs-content="Zažijte skvělý zážitek v jednom z našich nejlepších apartmá">Klikni sem</a>
+                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Special offer"
+                    data-bs-content="Lorem ipsum, dolor sit amet.">Click here</a>
                 </div>
               </div>
             </div>
@@ -215,12 +209,12 @@
                     fugiat dicta hic?</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">2700 CZK jednolůžko/noc</li>
-                  <li class="list-group-item"> 3500 CZK dvoulůžko/noc</li>
+                  <li class="list-group-item">150 EUR single bed/night</li>
+                  <li class="list-group-item">200 EUR Double bed/night</li>
                 </ul>
                 <div class="card-body">
-                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Naše nabídka"
-                    data-bs-content="Zažijte skvělý zážitek v jednom z našich nejlepších apartmá">Klikni sem</a>
+                  <a class="btn btn-outline-dark" data-bs-toggle="popover" title="Special offer"
+                    data-bs-content="Lorem ipsum, dolor sit amet.">Click here</a>
                 </div>
               </div>
             </div>
@@ -233,7 +227,7 @@
       <!-- Carousel  -->
       <section id="galerie">
         <div class="container mt-auto">
-          <h3 class="text-center headings py-5">Galerie</h3>
+          <h3 class="text-center headings py-5">Gallery</h3>
           <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -279,31 +273,31 @@
           </div>
       </section>
 
-      <!-- Coctacts -->
+      <!-- Contacts -->
       <section id="contacts">
         <div class="container text-light">
-          <h3 class="text-center headings py-5">Kontakty</h3>
+          <h3 class="text-center headings py-5">Contacts</h3>
           <div class="row">
-            <div class="col-12 col-md-4 py-4 ">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6782.303543613374!2d-0.6917231299627485!3d38.26385312267487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b68dd6541693%3A0x724642547ebab766!2sHuerto%20del%20Cura!5e0!3m2!1scs!2scz!4v1654080629753!5m2!1scs!2scz"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-12 col-sm-6 col-md-8  py-4 d-flex justify-content-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d177779.5085865516!2d-95.99208166233093!3d19.21356520249392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59dd115b9fb43355!2sHotel%20Punta%20Azul!5e0!3m2!1scs!2scz!4v1658859080677!5m2!1scs!2scz"  style="border:0;" allowfullscreen="" class="mapContacts" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-around align-items-center">
-              <a href="#" class="bi bi-facebook h2"></a>
-              <a href="#" class="bi bi-twitter h2"></a>
-              <a href="#" class="bi bi-instagram h2"></a>
+            <div class="container-contact col-12 col-sm-6 col-md-4 py-4 d-flex justify-content-around align-items-center">
+              <div class="text-center">
+              <a href="#" class="bi bi-facebook h1 p-2" ></a>
+              <a href="#" class="bi bi-twitter h1 p-2"></a>
+              <a href="#" class="bi bi-instagram h1 p-2"></a>
             </div>
-            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="text-center">
 
               <p>
-                <i class="bi bi-envelope-open"></i>&nbsp;info@huertodelcura.com
+                <i class="bi bi-envelope-open"></i>&nbsp;info@puntaazul.com
               </p>
               <p>
                 <i class="bi bi-telephone"></i></i>&nbsp;+34 123 456 789
               </p>
             </div>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -319,7 +313,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Virtuální prohlídka</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Virtual tour</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">

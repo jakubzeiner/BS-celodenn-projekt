@@ -4,25 +4,36 @@
 // Include any default variable overrides here (though functions won't be available)
 
 $theme-colors: (
-  "primary": #ccff99,
-  "secondary": #e6e6e6,
+  "primary": #7AB5B6,
+  "secondary": #324B4B,
   "dark": #111,
 );
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
 // Then add additional custom code here
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Comfortaa', cursive;
   scroll-behavior: smooth;
 }
 
 body {
   background-color: rgb(215, 250, 250);
 }
+
+.row{
+  padding-top: 2pt;
+}
+
+/*---------------------------------header-------------------------*/
+.wel{
+  font-family:'Edu VIC WA NT Beginner', cursive;
+}
+
 
 #domu {
   background-image: url(img/bghotel.jpg);
@@ -31,8 +42,13 @@ body {
   position: relative;
   color: #ccff99;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
 
-
+#header {
+  background-color: rgba(215, 250, 250, 0.8);
+  border-radius: 15px;
 }
 
 /*---------------------------------history-------------------------*/
@@ -42,13 +58,11 @@ body {
   }
 }
 
-#firstpar {
-  font-family: "Montserrat", sans-serif;
-}
-
-#secondpar {
+.par {
   font-family: "Poppins", sans-serif;
 }
+
+
 
 /*--------------------gallery--------------*/
 
@@ -57,6 +71,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
+
+/*--------------contact--------------------*/
+
+.mapContacts{
+  width: 90%; 
+  min-height:300px;
+}
+
 
 /*--------------modal--------------------*/
 
